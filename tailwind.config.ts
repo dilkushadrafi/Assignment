@@ -14,10 +14,13 @@ const config: Config = {
                     "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
             },
             colors: {
-                volatus: {
-                    blue: "#003366",
-                    light: "#00AEEF",
-                    dark: "#002244"
+                colors: {
+                    volatus: {
+                        blue: "#002D62", // Deep Navy Blue (Primary)
+                        light: "#00AEEF", // Bright Cyan (Action/Highlight)
+                        dark: "#001B3A", // Darker Variant for Footer/Backgrounds
+                        gray: "#F9F9F9", // Light Gray for Section Backgrounds
+                    }
                 }
             }
         },
