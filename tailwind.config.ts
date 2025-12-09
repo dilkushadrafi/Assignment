@@ -16,10 +16,11 @@ const config: Config = {
             colors: {
                 colors: {
                     volatus: {
-                        blue: "#002D62", // Deep Navy Blue (Primary)
-                        light: "#00AEEF", // Bright Cyan (Action/Highlight)
-                        dark: "#001B3A", // Darker Variant for Footer/Backgrounds
-                        gray: "#F9F9F9", // Light Gray for Section Backgrounds
+                        black: "#000000", // Main Background
+                        yellow: "#FFB81C", // Brand Yellow/Gold (CTA, Accents)
+                        dark: "#121212", // Secondary Background
+                        gray: "#F5F5F5", // Light Backgrounds
+                        text: "#333333", // Main Text
                     }
                 }
             }
